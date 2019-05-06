@@ -17,7 +17,7 @@ import string
 import httplib2
 import json
 from flask import make_response
-import requests
+#import requests
 
 app = Flask(__name__)
 
