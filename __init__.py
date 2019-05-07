@@ -22,7 +22,7 @@ from flask import make_response
 app = Flask(__name__)
 
 # Create a database session and connect to it
-engine = create_engine('sqlite:///catalog.db')
+engine = create_engine('sqlite:////var/www/Fullstack_Project3/Fullstack_Project3/catalog.db')
 Base.metadata.bind = engine
 DBSession = sessionmaker(bind=engine)
 
