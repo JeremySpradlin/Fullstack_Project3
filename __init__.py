@@ -12,12 +12,9 @@ from database_setup import Base, Category, Book, User
 from flask import session as login_session
 import random
 import string
-#from oauth2client.client import flow_from_clientsecrets
-#from oauth2client.client import FlowExchangeError
 import httplib2
 import json
 from flask import make_response
-#import requests
 
 app = Flask(__name__)
 
